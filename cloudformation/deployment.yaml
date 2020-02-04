@@ -22,12 +22,12 @@ Parameters:
 
   GitHubUser:
     Type: String
-    Default: mikzol
+    Default: lastch
     Description: Your username on GitHub.
 
   GitHubRepo:
     Type: String
-    Default: ma_aws
+    Default: demo
     Description: The repo name of the app.
 
   GitHubBranch:
@@ -38,19 +38,19 @@ Parameters:
   GitHubToken:
     Type: String
     NoEcho: true
-    Default: 55afb585d955a0b7ff969c8608539c04e66ccb24
+    Default: Your Github Token
     Description: >
       Github personal access token
 
   TemplateBucket:
     Type: String
-    Default: ma-demo
+    Default: demo
     Description: >
       The S3 bucket from which to fetch the templates used by this stack.
 
   ECRRepository:
     Type: String
-    Default: ma-demo
+    Default: demo
     Description: >
       AWS ECR Repository where the docker image of app will be saved in.
 
